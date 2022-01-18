@@ -1,0 +1,88 @@
+.signup {
+	display: flex;
+	width: 50%;
+	background-color: white;
+	margin: 70px auto;
+	height: 550px;
+}
+
+.signup_left {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	background-color: blue;
+	opacity: 0.8;
+}
+
+.signup_left > img {
+	width: 200px;
+	margin: auto 0;
+	padding-left: 50px;
+}
+
+.signup_left > p {
+	margin-bottom: 10px;
+	color: white;
+	text-align: center;
+}
+
+.signup_right {
+	display: flex;
+	flex-direction: column;
+	padding-left: 45px;
+	padding-top: 50px;
+}
+
+.signup_right > .signup_right_firstInput {
+	margin-top: 40px;
+	padding: 15px;
+	width: 350px;
+	border: none;
+	border-bottom: 3px solid lightgray;
+	outline: none;
+	font-size: 15px;
+}
+
+.signup_right > .signup_right_secondInput {
+	margin-top: 25px;
+	padding: 15px;
+	width: 350px;
+	border: none;
+	border-bottom: 3px solid lightgray;
+	outline: none;
+	font-size: 15px;
+}
+
+.signup_right > .signup_right_thirdInput {
+	margin-top: 25px;
+	padding: 15px;
+	width: 350px;
+	border: none;
+	border-bottom: 3px solid lightgray;
+	outline: none;
+	font-size: 15px;
+}
+
+.signup_right > button {
+	margin-top: 40px;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.signup_right > p {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 9px;
+}
+
+.signup_right > p > span {
+	color: blue;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.signup_right > .signup_right_bottomLine {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 75px;
+}
